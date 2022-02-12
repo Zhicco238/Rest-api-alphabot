@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')
 }
 
-var creator = "@zeeoneofc"
+var creator = "@Zhiccobot"
 var ytdl = require('ytdl-core');
 var ytpl = require('ytpl');
 var secure = require('ssl-express-www');
@@ -139,7 +139,7 @@ loghandler = {
     }
 }
 
-const listkey = ["Alphabot", "zeeoneofc"];
+const listkey = ["ZHICCOBOT", "Zhicco"];
 //router.use(favicon(__path + "/views/logo.ico"));
 
 var len = 15
@@ -210,7 +210,7 @@ router.get('/addapikey', (req, res, next) => {
         	status: status,
             apikey: apikeyInput,
             email: email,
-            nomor_hp: nomorhp,
+            nomor_hp: 0818301179,
             name: name,
             age: age,
             country: country,
@@ -294,7 +294,7 @@ router.get('/cewe/vietnam', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	author: 'Zeeone',
+             	author: 'Zhiccoone',
                  result
              })
          })
